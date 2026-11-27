@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - BiteBox</title>
 </head>
+
 <body>
     <h1>Contact Us</h1>
     <p>
@@ -18,5 +20,77 @@
     </p>
     <h2>Visit Our Website</h2>
     <a href="https://www.google.com">Visit Google</a>
+
+    <hr>
+    <h2>Customer Registeration & Order Form</h2>
+    <form action="">
+        <h3>Customer Information</h3>
+        <label for="fullname">Fullname</label>
+
+        <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Eg.Shravani Shinde">
+        <br><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="Email" placeholder="Email">
+        <br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="password">
+        <br><br>
+
+        <label for="phone">Phone Number</label><br>
+        <input type="phone" id="tel" name="phone" placeholder="phone no.">
+        <br><br>
+
+        <h3>Order Information</h3>
+        <label for="quantity">Quantity</label>
+        <br>
+        <input type="number" id="quantity" name="quantity"><br><br>
+
+        <label for="Delivery date">Preferred Delivery Date</label><br>
+        <input type="date" id="Deliverydate" name="Deliverydate"><br><br>
+
+        <label for="food">Select Food item</label>
+        <br>
+        <select name="food" id="food">
+            <option>Veg pizza</option>
+            <option>Cheese Burger</option>
+            <option>White sauce Pasta</option>
+            <option>Veg Grilled Sandwich</option>
+            <option>Chocolate Brownie</option>
+        </select><br><br>
+
+        <h3>Payment Method</h3>
+        <input type="radio" id="cash" namee="payment">
+        <label for="cash">Cash</label>
+        <br>
+        <input type="radio" id="card" name="payment">
+        <label for="card">Card</label>
+        <br>
+        <input type="radio" id="upi" name="payment">
+        <label for="upi">UPI</label>
+        <br><br>
+
+        <h3>Extras</h3>
+        <input type="checkbox" id="cheese" name="extras">
+        <label for="cheese">Extras Cheese</label><br>
+
+        <input type="checkbox" id="drink" name="extras">
+        <label for="drink">Cold Drink</label><br>
+
+        <input type="checkbox" id="dessert" name="extras">
+        <label for="dessert">Extras Dessert</label><br><br>
+
+        <h3>Delivery Instructions</h3>
+        <label for="address">Delivery Address</label><br>
+        <textarea id="address" name="address" rows="7" cols="40"></textarea>
+        <br><br>
+
+        <input type="Submit" value="Place order">
+        <br><br>
+        <input type="Reset" value="Clear Form">
+    </form>
 </body>
+
 </html>
